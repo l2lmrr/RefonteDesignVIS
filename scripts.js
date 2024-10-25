@@ -42,3 +42,40 @@ closeButton.addEventListener('click', () => {
 });
 
 
+// login section 
+
+const loginButton = document.getElementById('login-button');
+const loginSection = document.getElementById('login-section');
+const closeLoginButton = document.getElementById('close-login');
+
+const signupButton = document.getElementById('signup-button');
+const signupSection = document.getElementById('signup-section');
+const closesignupButton = document.getElementById('close-signup');
+
+const reloginButton = document.getElementById('relogin-button');
+
+
+loginButton.addEventListener('click', () => {
+  signupSection.style.display = 'none';
+  loginSection.style.display = 'flex';
+});
+
+reloginButton.addEventListener('click', () => {
+  signupSection.style.display = 'none';
+  loginSection.style.display = 'flex';
+});
+
+closeLoginButton.addEventListener('click', () => {
+  loginSection.style.display = 'none';
+});
+
+
+
+signupButton.addEventListener('click', () => {
+  loginSection.style.display = 'none';
+  signupSection.style.display = 'flex';
+});
+
+closesignupButton.addEventListener('click', () => {
+  signupSection.style.display = 'none';
+});

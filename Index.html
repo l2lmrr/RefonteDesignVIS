@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visionary Creations</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script> 
 </head>
 <body>
 
@@ -29,8 +29,40 @@
                 <li><a href="#" class="nav-item">Testimonial</a></li>
                 <li><a href="#" class="nav-item">Blog</a></li>
                 <li><a href="#" class="nav-item">Contact</a></li>
+                <li>
+                    <a href="#" class="nav-item" id="login-button">Log in</a>                    
+                    
+                    <div class="login-section" id="login-section">
+                        <div class="login-form">
+                            <h2>Log in</h2>
+                            <button id="close-login" class="close-login">Fermer</button>
+                            <form>
+                                <label for="username">Nom d'utilisateur</label>
+                                <input type="text" id="username" required>
+                                <label for="password">Mot de passe</label>
+                                <input type="password" id="password" required>
+                                <button type="submit">Se Connecter</button>
+                                <p>Pas encore de compte ? <a href="#" id="signup-button">S'inscrire</a></p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="signup-section" id="signup-section">
+                        <div class="signup-form">
+                            <h2>Sign Up</h2>
+                            <button id="close-signup" class="close-signup">Fermer</button>
+                            <form>
+                                <label for="username">Nom d'utilisateur</label>
+                                <input type="text" id="username" required>
+                                <label for="password">Mot de passe</label>
+                                <input type="password" id="password" required>
+                                <button type="submit">Se Connecter</button>
+                                <p>Tu as un compte ? <a href="#" id="relogin-button">Log in</a>  </p>
+                            </form>
+                        </div>
+                    </div>
+                </li>
             </ul>
-        </nav>
+            </nav>
     </header>
 
     <!-- Header Section -->
@@ -774,6 +806,9 @@
                   </div>
                 </div>
               </div>
+
+
+            
               
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="scripts.js"></script>
