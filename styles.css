@@ -8,7 +8,7 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 
 /* Navigation Bar Styles */
@@ -30,6 +30,7 @@ body {
 
 .nav {
   margin-right: 15%;
+  z-index: 10;
 }
 
 .nav-list {
@@ -93,15 +94,17 @@ body {
     right: 0;
     background-color: white;
     flex-direction: column;
-    width: 100%;
+    width: 0px;
+    overflow: hidden;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    transform: translateX(100%);
+    transition: 300ms;
   }
 
+
   .nav-list.open {
-    transform: translateX(0);
+    width: 100vw;
   }
 
   .burger {
