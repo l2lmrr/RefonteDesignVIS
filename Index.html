@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionary Creations</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="imgs/logo.png" alt="Logo" class="logo">
+        </div>
+        <nav class="nav">
+            <div class="burger" id="burger">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ul class="nav-list" id="nav-list">
+                <li><a href="#" class="nav-item active">Home</a></li>
+                <li><a href="#" class="nav-item">About</a></li>
+                <li><a href="#" class="nav-item">Service</a></li>
+                <li><a href="#" class="nav-item">Portfolio</a></li>
+                <li><a href="#" class="nav-item">Team</a></li>
+                <li><a href="#" class="nav-item">Testimonial</a></li>
+                <li><a href="#" class="nav-item">Blog</a></li>
+                <li><a href="#" class="nav-item">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Header Section -->
+    <header class="header-section">
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1 class="header-small-title">Small Team With Big Ideas</h1>
+            <h2 class="header-main-title">Visionary Creations</h2>
+            <div class="header-buttons">
+                <button class="btn btn-outline">Our Service</button>
+                <button class="btn btn-outline">Contact Us</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Combined Services Section -->
+    <section class="services-section">
+        <div class="combined-service-box">
+            <!-- Service 1 -->
+            <div class="service-box">
+                <div class="icon">
+                    <img src="imgs/UX_UI_Design.png" alt="UX/UI Design Icon">
+                </div>
+                <h3 class="service-title">UX/UI Design</h3>
+                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Divider Line -->
+            <div class="divider"></div>
+
+            <!-- Service 2 -->
+            <div class="service-box">
+                <div class="icon">
+                    <img src="imgs/WebDevelopment.png" alt="Web Development Icon">
+                </div>
+                <h3 class="service-title">Web Development</h3>
+                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Divider Line -->
+            <div class="divider"></div>
+
+            <!-- Service 3 -->
+            <div class="service-box">
+                <div class="icon">
+                    <img src="imgs/AppDesign.png" alt="App Design Icon">
+                </div>
+                <h3 class="service-title">App Design</h3>
+                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- We Create Section -->
+    <section class="create-section">
+        <div class="create-container">
+            <div class="create-image">
+                <img src="imgs/about.jpg" alt="Team Working Image">
+            </div>
+            <div class="create-content">
+                <h3>We Create</h3>
+                <h2>Awesome Work</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapiente cupiditate quas, amet harum perferendis minus, cum dolorum obcaecati iste aspernatur voluptatum aut.</p>
+                <p>Cum laudantium unde nemo doloribus eligendi quodarum ea vitae dicta. Accusantium vero, ea? Alias, atque libero, id, ut harum.</p>
+                <p>Consectetur adipiscing elit. Omnis quidem, quos iure a dolorum illum culpa quia nemo soluta, ratione harum beatae minus doloribus consectetur! Similique tempora sunt doloribus molestias.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="relative bg-cover bg-center bg-no-repeat text-white py-20" style="background-image: url('imgs/about.jpg');">
+        <!-- Gray Overlay with Adjustable Opacity -->
+        <div class="absolute inset-0 bg-black bg-opacity-90"></div> <!-- Adjust the opacity here -->
+
+        <!-- Content -->
+        <div class="relative container mx-auto text-center">
+            <p class="text-sm text-gray-400">We See</p>
+            <h2 class="text-3xl font-semibold mb-12">What Other Don't See.</h2>
+    
+            <!-- Flexbox to Center the Circles Horizontally -->
+            <div class="flex justify-center space-x-16"> <!-- Increased space between circles (space-x-16) -->
+                <!-- Planning Section -->
+                <div class="text-center">
+                    <div class="circle-container w-full mx-auto bg-transparent border-2 border-red-500 rounded-full flex flex-col items-center justify-center mb-4">
+                        <img src="imgs/Planing.png" alt="Planning" class="icon mb-3">
+                        <p class="text-base font-semibold">Planning</p>
+                    </div>
+                </div>
+    
+                <!-- Mockup Section -->
+                <div class="text-center">
+                    <div class="circle-container w-full mx-auto bg-transparent border-2 border-red-500 rounded-full flex flex-col items-center justify-center mb-4">
+                        <img src="imgs/Mockup.png" alt="Mockup" class="icon mb-3">
+                        <p class="text-base font-semibold">Mockup</p>
+                    </div>
+                </div>
+    
+                <!-- Develop Section -->
+                <div class="text-center">
+                    <div class="circle-container w-full mx-auto bg-transparent border-2 border-red-500 rounded-full flex flex-col items-center justify-center mb-4">
+                        <img src="imgs/devolop.png" alt="Develop" class="icon mb-3">
+                        <p class="text-base font-semibold">Develope</p>
+                    </div>
+                </div>
+    
+                <!-- Provide Section -->
+                <div class="text-center">
+                    <div class="circle-container w-full mx-auto bg-transparent border-2 border-red-500 rounded-full flex flex-col items-center justify-center mb-4">
+                        <img src="imgs/Provoid.png" alt="Provide" class="icon mb-3">
+                        <p class="text-base font-semibold">Provide</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- here start services -->
+  <div class="w-full pl-[10%] pr-[10%]">
+    <div class="text-center">
+        <h2 class="text-gray-500 mt-[7.5%] mb-[1%]">Makes Happen</h2>
+        <h2 class="text-[1.6rem] mb-[1%]">OUR SERVICES</h2>
+    </div>
+    <div class="flex flex-wrap justify-center mb-[-15%]">
+        <div class="border border-[rgb(245,245,245)] w-[350px] m-[2%] p-[2.5%] md:border md:border-[rgb(245,245,245)] md:w-[20%] md:m-[2%] md:p-[2.5%]">
+            <div class="h-[50px] w-[50px] m-[15px]">
+                <img src="imgs/service1.png" width="50px" alt="an icon"loading="lazy">
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <p class="text-[1.6rem] mb-[10%]">Lorem, ipsum dolor.</p>
+                <p class="text-[rgb(77,77,77)]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                </p>
+            </div>
+        </div>
+        <div class="border border-[rgb(245,245,245)] w-[350px] m-[2%] p-[2.5%] md:border md:border-[rgb(245,245,245)] md:w-[20%] md:m-[2%] md:p-[2.5%]">
+            <div class="h-[50px] w-[50px] m-[15px]">
+                <img src="imgs/service2.png" width="50px" alt="an icon"loading="lazy">
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <p class="text-[1.6rem] mb-[10%]">Lorem, ipsum dolor.</p>
+                <p class="text-[rgb(77,77,77)]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                </p>
+            </div>
+        </div>
+        <div class="border border-[rgb(245,245,245)] w-[350px] m-[2%] p-[2.5%] md:border md:border-[rgb(245,245,245)] md:w-[20%] md:m-[2%] md:p-[2.5%]">
+            <div class="h-[50px] w-[50px] m-[15px]">
+                <img src="imgs/service3.png" width="50px" alt="an icon"loading="lazy">
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <p class="text-[1.6rem] mb-[10%]">Lorem, ipsum dolor.</p>
+                <p class="text-[rgb(77,77,77)]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                </p>
+            </div>
+        </div>
+        <div class="border border-[rgb(245,245,245)] w-[350px] m-[2%] p-[2.5%] md:border md:border-[rgb(245,245,245)] md:w-[20%] md:m-[2%] md:p-[2.5%]">
+            <div class="h-[50px] w-[50px] m-[15px]">
+                <img src="imgs/service4.png" width="50px" alt="an icon"loading="lazy">
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <p class="text-[1.6rem] mb-[10%]">
+                    Lorem, ipsum dolor.
+                </p>
+                <p class="text-[rgb(77,77,77)]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                </p>
+            </div>
+        </div>
+        <div class="border border-[rgb(245,245,245)] w-[350px] m-[2%] p-[2.5%] md:border md:border-[rgb(245,245,245)] md:w-[20%] md:m-[2%] md:p-[2.5%]">
+            <div class="h-[50px] w-[50px] m-[15px]">
+                <img src="imgs/service5.png" width="50px" alt="an icon"loading="lazy">
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <p class="text-[1.6rem] mb-[10%]">
+                    Lorem, ipsum dolor.
+                </p>
+                <p class="text-[#4d4d4d]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                </p>
+            </div>
+        </div>
+        <div class="border border-[rgb(245,245,245)] w-[350px] m-[2%] p-[2.5%] md:border md:border-[rgb(245,245,245)] md:w-[20%] md:m-[2%] md:p-[2.5%]">
+            <div class="h-[50px] w-[50px] m-[15px]">
+                <img src="imgs/service6.png" width="50px" alt="an icon"loading="lazy">
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <p class="text-[1.6rem] mb-[10%]">
+                    Lorem, ipsum dolor.
+                </p>
+                <p class="text-[rgb(77,77,77)]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                </p>
+            </div>
+        </div>
+        <div class="border border-[rgb(245,245,245)] w-[350px] m-[2%] p-[2.5%] md:border md:border-[rgb(245,245,245)] md:w-[20%] md:m-[2%] md:p-[2.5%]">
+            <div class="h-[50px] w-[50px] m-[15px]">
+                <img src="imgs/service7.png" width="50px" alt="an icon"loading="lazy">
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <p class="text-[1.6rem] mb-[10%]">
+                    Lorem, ipsum dolor.
+                </p>
+                <p class="text-[rgb(77,77,77)]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                </p>
+            </div>
+        </div>
+        <div class="border border-[rgb(245,245,245)] w-[350px] m-[2%] p-[2.5%] md:border md:border-[rgb(245,245,245)] md:w-[20%] md:m-[2%] md:p-[2.5%]">
+            <div class="h-[50px] w-[50px] m-[15px]">
+                <img src="imgs/service8.png" width="50px" alt="an icon"loading="lazy">
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <p class="text-[1.6rem] mb-[10%]">
+                    Lorem, ipsum dolor.
+                </p>
+                <p class="text-[rgb(77,77,77)]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- here end services -->
+
+    
+         <div class="container mx-auto py-12 mt-[12%]">
+            <h2 class="text-center text-gray-600 mb-4">Our Awesome Works</h2>
+            <h1 class="text-4xl font-bold text-center mb-8">Our Portfolio</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="portfolio-item">
+                    <div class="image-container">
+                        <img src="imgs/folio-1.jpg" alt="Project Image" class="w-full">
+                        <div class="overlay">
+                            <div class="icons">
+                                <a href="#" class="icon"><i class="fas fa-search"></i></a>
+                                <a href="#" class="icon"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item h-50 py-0">
+                    <div class="image-container">
+                        <img src="imgs/folio-3.jpg" alt="Project Image" class="w-full">
+                        <div class="overlay">
+                            <div class="icons">
+                                <a href="#" class="icon"><i class="fas fa-search"></i></a>
+                                <a href="#" class="icon"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image-container">
+                        <img src="imgs/folio-5.jpg" alt="Project Image" class="w-full">
+                        <div class="overlay">
+                            <div class="icons">
+                                <a href="#" class="icon"><i class="fas fa-search"></i></a>
+                                <a href="#" class="icon"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image-container">
+                        <img src="imgs/folio-2.jpg" alt="Project Image" class="w-full">
+                        <div class="overlay">
+                            <div class="icons">
+                                <a href="#" class="icon"><i class="fas fa-search"></i></a>
+                                <a href="#" class="icon"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image-container">
+                        <img src="imgs/folio-4.jpg" alt="Project Image" class="w-full">
+                        <div class="overlay">
+                            <div class="icons">
+                                <a href="#" class="icon"><i class="fas fa-search"></i></a>
+                                <a href="#" class="icon"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image-container">
+                        <img src="imgs/folio-6.jpg" alt="Project Image" class="w-full">
+                        <div class="overlay">
+                            <div class="icons">
+                                <a href="#" class="icon"><i class="fas fa-search"></i></a>
+                                <a href="#" class="icon"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+
+         <!-- here start team -->
+         <div class="w-full p-[3%]">
+            <div class="text-center">
+                <h2 class="text-gray-500 mt-[7.5%] mb-[1%]">Meet With</h2>
+                <h2 class="text-[1.6rem] mb-[1%]">OUR ANGLES</h2>
+            </div>
+            <div class="m-0 flex flex-wrap justify-center">
+                <div class="border border-[rgb(245,245,245)] w-[350px] m-[3%] p-[2.5%] text-center md:border md:border-[rgb(245,245,245)] md:w-[25%] md:m-[3%] md:p-[2.5%] md:text-center md:items-center">
+                    <div class="ml-0 w-full img-box">
+                        <img src="imgs/avatar.jpg" width="100%" alt="an icon" loading="lazy" >
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <p class="text-[rgb(189,63,122)]" >lorem</p>
+                        <p class="text-[1.6rem] mb-[10%]">Lorem, ipsum dolor.</p>
+                        <p class="text-[rgb(77,77,77)]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                        </p>
+                    </div>
+                    <div class="w-full h-[7.5%] flex justify-center mt-[10%]">
+                        <div>
+                            <a href="#"><img src="imgs/fb.png" width="90%" class="p-[10%] pr-[6px]" alt="facebook"loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/reddit.png" width="90%" class="p-[10%]" alt="reddit"loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/icon3.png" width="90%" class="p-[10%]" alt="icon"loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/twitter.png" width="90%" class="p-[10%]" alt="twitter"loading="lazy"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-[rgb(245,245,245)] w-[350px] m-[3%] p-[2.5%] text-center md:border md:border-[rgb(245,245,245)] md:w-[25%] md:m-[3%] md:p-[2.5%] md:text-center md:items-center">
+                    <div class="ml-0 w-full img-box">
+                        <img src="imgs/avatar-1.jpg" width="100%" alt="an icon" loading="lazy" >
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <p class="text-[rgb(189,63,122)]">lorem</p>
+                        <p class="text-[1.6rem] mb-[10%]">Lorem, ipsum dolor.</p>
+                        <p class="text-[rgb(77,77,77)]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                        </p>
+                    </div>
+                    <div class="w-full h-[7.5%] flex justify-center mt-[10%]">
+                        <div>
+                            <a href="#"><img src="imgs/fb.png" width="90%" class="p-[10%] pr-[6px]" alt="facebook"loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/reddit.png" width="90%" class="p-[10%]" alt="reddit"loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/icon3.png" width="90%" class="p-[10%]" alt="icon" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/twitter.png" width="90%" class="p-[10%]" alt="twitter" loading="lazy"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-[rgb(245,245,245)] w-[350px] m-[3%] p-[2.5%] text-center md:border md:border-[rgb(245,245,245)] md:w-[25%] md:m-[3%] md:p-[2.5%] md:text-center md:items-center">
+                    <div class="ml-0 w-full img-box">
+                        <img src="imgs/avatar-2.jpg" width="100%" alt="an icon" loading="lazy" >
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <p class="text-[rgb(189,63,122)]">lorem</p>
+                        <p class="text-[1.6rem] mb-[10%]">Lorem, ipsum dolor.</p>
+                        <p class="text-[rgb(77,77,77)]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                        </p>
+                    </div>
+                    <div class="w-full h-[7.5%] flex justify-center mt-[10%]">
+                        <div>
+                            <a href="#"><img src="imgs/fb.png" width="90%" class="p-[10%] pr-[6px]" alt="facebook" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/reddit.png" width="90%" class="p-[10%]" alt="reddit" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/icon3.png" width="90%" class="p-[10%]" alt="icon" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/twitter.png" width="90%" class="p-[10%]" alt="twitter" loading="lazy"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-[rgb(245,245,245)] w-[350px] m-[3%] p-[2.5%] text-center md:border md:border-[rgb(245,245,245)] md:w-[25%] md:m-[3%] md:p-[2.5%] md:text-center md:items-center">
+                    <div class="ml-0 w-full img-box">
+                        <img src="imgs/avatar-3.jpg" width="100%" alt="an icon" loading="lazy" >
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <p class="text-[rgb(189,63,122)]">lorem</p>
+                        <p class="text-[1.6rem] mb-[10%]">Lorem, ipsum dolor.</p>
+                        <p class="text-[rgb(77,77,77)]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                        </p>
+                    </div>
+                    <div class="w-full h-[7.5%] flex justify-center mt-[10%]">
+                        <div>
+                            <a href="#"><img src="imgs/fb.png" width="90%" class="p-[10%] pr-[6px]" alt="facebook" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/reddit.png" width="90%" class="p-[10%]" alt="reddit" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/icon3.png" width="90%" class="p-[10%]" alt="iconloading=" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/twitter.png" width="90%" class="p-[10%]" alt="twitter" loading="lazy"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-[rgb(245,245,245)] w-[350px] m-[3%] p-[2.5%] text-center md:border md:border-[rgb(245,245,245)] md:w-[25%] md:m-[3%] md:p-[2.5%] md:text-center md:items-center">
+                    <div class="ml-0 w-full img-box">
+                        <img src="imgs/avatar-4.jpg" width="100%" alt="an icon" loading="lazy" >
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <p class="text-[rgb(189,63,122)]">lorem</p>
+                        <p class="text-[1.6rem] mb-[10%]">Lorem, ipsum dolor.</p>
+                        <p clases="text-[rgb(77,77,77)]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                        </p>
+                    </div>
+                    <div class="w-full h-[7.5%] flex justify-center mt-[10%]">
+                        <div>
+                            <a href="#"><img src="imgs/fb.png" width="90%" class="p-[10%] pr-[6px]" alt="facebook" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/reddit.png" width="90%" class="p-[10%]" alt="reddit" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/icon3.png" width="90%" class="p-[10%]" alt="icon" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/twitter.png" width="90%" class="p-[10%]" alt="twitter" loading="lazy"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-[rgb(245,245,245)] w-[350px] m-[3%] p-[2.5%] text-center md:border md:border-[rgb(245,245,245)] md:w-[25%] md:m-[3%] md:p-[2.5%] md:text-center md:items-center">
+                    <div class="ml-0 w-full img-box">
+                        <img src="imgs/avatar-5.jpg" width="100%" alt="an icon" loading="lazy" >
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <p class="text-[rgb(189,63,122)]">lorem</p>
+                        <p class="text-[1.6rem] mb-[10%]">Lorem, ipsum dolor.</p>
+                        <p class="text-[rgb(77,77,77)]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe excepturi labore, rem itaque dolores?
+                        </p>
+                    </div>
+                    <div class="w-full h-[7.5%] flex justify-center mt-[10%]">
+                        <div>
+                            <a href="#"><img src="imgs/fb.png" width="90%" class="p-[10%] pr-[6px]" alt="facebook" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/reddit.png" width="90%" class="p-[10%]" alt="reddit" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/icon3.png" width="90%" class="p-[10%]" alt="icon" loading="lazy"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="imgs/twitter.png" width="90%" class="p-[10%]" alt="twitter" loading="lazy"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- here end team -->
+    
+
+        <!-- start term Part -->
+    <!-- Fun Facts Section -->
+    <section class="relative bg-cover flex items-center justify-center" style="background-image: url('imgs/header.jpg'); height: 60vh;" id="fun-facts-section">
+        <div class="absolute inset-0 bg-black opacity-90" id="fun-facts-overlay"></div>
+        <div class="relative text-center text-white py-12">
+            <h2 class="text-4xl font-bold mb-8">We Are Awesome</h2>
+            <div class="flex flex-wrap justify-center space-x-12">
+                <div class="text-center mx-4 mb-4">
+                    <img src="imgs/AwardsWon.png" alt="Awards Icon" class="w-16 h-16 mb-2 mx-auto">
+                    <div class="text-2xl">100+</div>
+                    <div>Awards Won</div>
+                </div>
+                <div class="text-center mx-4 mb-4">
+                    <div class="bg bg-white"> <img src="imgs/HappyClients.png" alt="Happy Clients Icon" class="w-16 h-16 mb-2 mx-auto">
+                    </div>
+                    <div class="text-2xl">100+</div>
+                    <div>Happy Clients</div>
+                </div>
+                <div class="text-center mx-4 mb-4">
+                    <img src="imgs/ProjectCompleted.png" alt="Projects Completed Icon" class="w-16 h-16 mb-2 mx-auto">
+                    <div class="text-2xl">845+</div>
+                    <div>Projects Completed</div>
+                </div>
+                <div class="text-center mx-4 mb-4">
+                    <img src="imgs/Comment.png" alt="Comments Icon" class="w-16 h-16 mb-2 mx-auto">
+                    <div class="text-2xl">15K+</</div>
+                    <div>Comments</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-white py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">What Our Clients Say</h2>
+            <div id="testimonial-slider" class="relative overflow-hidden">
+                <div class="flex justify-center space-x-6">
+                    <!-- Testimonial 1 -->
+                    <div class="bg-gray-100 rounded-lg p-6 max-w-xs">
+                        <div class="flex items-center mb-4">
+                            <img src="imgs/avatar-5.jpg" alt="Client Avatar" class="w-12 h-12 rounded-full mr-4">
+                            <div class="text-left">
+                                <div class="font-bold">Richard Reb</div>
+                                <div class="text-sm text-gray-600">CEO, Company</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum dolor a scelerisque vehicula.</p>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="bg-gray-100 rounded-lg p-6 max-w-xs">
+                        <div class="flex items-center mb-4">
+                            <img src="imgs/avatar-6.jpg" alt="Client Avatar" class="w-12 h-12 rounded-full mr-4">
+                            <div class="text-left">
+                                <div class="font-bold">John Doe</div>
+                                <div class="text-sm text-gray-600">Manager, Business</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum dolor a scelerisque vehicula.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro Video Section -->
+    <section class="relative bg-cover flex items-center justify-center" style="background-image: url('imgs/about.jpg'); height: 60vh;" id="intro-video-section">
+        <div class="absolute inset-0 bg-black opacity-90" id="intro-video-overlay"></div>
+        <div class="relative text-center text-white py-12">
+            <button id="play-button" class="flex">
+                <img src="imgs/btn.png" alt="Play Icon" class="flex flex-col items-center py-4 px-6 rounded-full mx-auto">
+            </button>
+            <div class="text-lg font-semibold mt-4">See Our Intro Video</div>
+            <div id="video-container" class="hidden mt-8">
+                <button id="close-button" class="absolute top-4 right-4 text-white bg-red-500 hover:bg-red-700 p-2 rounded-full z-50">X</button>
+                <iframe id="intro-video" class="w-full h-full" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+         
+         <!-- end term Part -->
+         <div class="p-[5%]">
+            <div class="text-center pt-8">
+              <p class="font-light text-sm text-[#424952]">News Feeds</p>
+              <h1 class="text-2xl font-bold text-gray-600 mb-14">Our Blog</h1>
+            </div>
+            <section
+              class="flex flex-wrap justify-center px-4 md:flex-nowrap md:px-0 md:mx-auto lg:px-[9%]"
+            >
+              <!-- box one -->
+              <div class="m-3 mt-6 border-2 max-w-sm w-[100%]">
+                <div class="px-[5%]">
+                  <img src="imgs/blog-1.jpg" alt="img" class="w-full h-auto -mt-8 " style="box-shadow: 0px 0px 7px black;" />
+                </div>
+                <div class="flex items-center pt-5 justify-center space-x-6">
+                  <div class="flex items-center space-x-3">
+                    <img src="imgs/comments.png" alt="comments" class="w-[30%]"/>
+                    <p class="text-[#424952]">123</p>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <img src="imgs/views.png" alt="views" class="w-[30%]"/>
+                    <p class="text-[#424952]">123</p>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <p class="font-bold text-xl text-gray-700 pt-3">
+                    Possimus aliquam veniam
+                  </p>
+                  <p class="pt-3 text-[#424952]">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Repudiandae laudantium dolor nisi obcaecati, non laboriosam
+                    asperiores doloremque tempora repellendus iure!
+                  </p>
+                  <p class="pt-4 pb-4 text-rose-500 text-lg cursor-pointer">
+                    Read More...
+                  </p>
+                </div>
+              </div>
+              <!-- box two -->
+              <div class="m-3 mt-6 border-2 max-w-sm w-full">
+                <div class="px-[5%]">
+                  <img src="imgs/blog-2.jpg" alt="img" class="w-full h-auto -mt-8 " style="box-shadow: 0px 0px 7px black;" />
+                </div>
+                <div class="flex items-center pt-5 justify-center space-x-6">
+                  <div class="flex items-center space-x-3">
+                    <img src="imgs/comments.png" alt="comments" class="w-[30%]"/>
+                    <p class="text-[#424952]">222</p>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <img src="imgs/views.png" alt="views" class="w-[30%]" />
+                    <p class="text-[#424952]">10050</p>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <p class="font-bold text-xl text-gray-700 pt-3">
+                    Repudiandae laudantium
+                  </p>
+                  <p class="pt-3 text-[#424952]">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Repudiandae laudantium dolor nisi obcaecati, non laboriosam
+                    asperiores doloremque tempora repellendus iure!
+                  </p>
+                  <p class="pt-4 pb-4 text-rose-500 text-lg cursor-pointer">
+                    Read More...
+                  </p>
+                </div>
+              </div>
+              <!-- box three -->
+              <div class="m-3 mt-6 border-2 max-w-sm w-full">
+                <div class="px-[5%]">
+                  <img src="imgs/blog-3.jpg" alt="img" class="w-full h-auto -mt-8 " style="box-shadow: 0px 0px 7px rgb(156, 154, 154);" />
+                </div>
+                <div class="flex items-center pt-5 justify-center space-x-6">
+                  <div class="flex items-center space-x-3">
+                    <img src="imgs/comments.png" alt="comments" class="w-[30%]" />
+                    <p class="text-[#424952]">103</p>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <img src="imgs/views.png" alt="views" class="w-[30%]" />
+                    <p class="text-[#424952]">7883</p>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <p class="font-bold text-xl text-gray-700 pt-3">
+                    Laboriosam asperiores
+                  </p>
+                  <p class="pt-3 text-[#424952]">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Repudiandae laudantium dolor nisi obcaecati, non laboriosam
+                    asperiores doloremque tempora repellendus iure!
+                  </p>
+                  <p class="pt-4 pb-4 text-rose-500 text-lg cursor-pointer">
+                    Read More...
+                  </p>
+                </div>
+              </div>
+            </section>
+        
+            <div class="h-auto lg:w-[80%] md:w-[98%] flex items-center justify-center pb-2 mb-24 mx-auto mt-20 border-2 border-gray-200">
+                <div class=" lg:flex w-[100%] sm:block md:block">
+                  <!-- Section 1 --> 
+                  <div id="1" class="hidden lg:block lg:flex-1 p-5">
+                    <div>
+                      <p class=" text-[#424952] text-lg">Get Here</p>
+                    </div>
+                    <div>
+                      <h1 class="font-bold text-3xl text-gray-600">Contact Us</h1>
+                    </div>
+                    <div class="flex pb-5 pt-10">
+                      <div class="w-[40px] h-[50px] flex items-center justify-center">
+                        <img src="imgs/location.png" class="w-[20px] h-[25px]" />
+                      </div>
+                      <div class="pl-3">
+                        <h2 class="font-bold text-lg">Location</h2>
+                        <p class="text-gray-600 font-light w-[80%]">12345 Fake ST Nowhere</p>
+                      </div>
+                    </div>
+                    <hr class="w-[40%]" />
+                    <div class="flex pb-5 pt-5">
+                      <div class="w-[40px] h-[50px] flex items-center justify-center">
+                        <img src="imgs/phone.png" class="w-[20px] h-[25px]" />
+                      </div>
+                      <div class="pl-3">
+                        <h2 class="font-bold text-lg">Phone Number</h2>
+                        <p class="text-gray-600 font-light">(123) 456-7890</p>
+                      </div>
+                    </div>
+                    <hr class="w-[40%]" />
+                    <div class="flex pb-5 pt-5">
+                      <div class="w-[40px] h-[50px] flex items-center justify-center">
+                        <img src="imgs/location.png" class="w-[20px] h-[25px]" />
+                      </div>
+                      <div class="pl-3">
+                        <h2 class="font-bold text-lg">Email Address</h2>
+                        <p class="text-gray-600 font-light">info@website.com</p>
+                      </div>
+                    </div>
+                    <hr class="w-[40%]" />
+                    <div class="flex pb-5 pt-5">
+                      <div class="w-[40px] h-[50px] flex items-center justify-center">
+                        <img src="imgs/location.png" class="w-[20px] h-[25px]" />
+                      </div>
+                      <div class="pl-3">
+                        <h2 class="font-bold text-lg">example.com</h2>
+                        <p class="text-gray-600 font-light">info@example.com</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="border-l -ml-[35%] mt-14 border-gray-200"></div>
+                  <!-- Section 2 -->
+                  <div id="2" class="flex-1 p-5 md:px-8 w-[100%] md:w-[100%] sm:w-[100%] xs:w-[100%]">
+                    <div>
+                      <p class="xs: text-[#424952] text-lg ">Available 24/7</p>
+                    </div>
+                    <div>
+                      <h1 class="font-bold text-3xl text-gray-600 ">Get In Touch</h1>
+                    </div>
+                    <form class="xs: mt-6">
+                      <div>
+                        <label for="a">ㅤ</label>
+                        <input
+                          id="a"
+                          type="text"
+                          required
+                          placeholder="Enter email"
+                          class="xs: border-2 mb-0 pl-4 pt-3 pb-3 border-gray-200 w-[100%]"
+                        />
+                      </div>
+                      <div>
+                        <label for="b">ㅤ</label>
+                        <input
+                          id="b"
+                          type="password"
+                          required
+                          placeholder="Password"
+                          class="xs: border-2 mb-0 pl-4 pt-3 pb-3 border-gray-200 w-[100%]"
+                        />
+                      </div>
+                      <div>
+                        <label for="c">ㅤ</label>
+                        <input
+                          id="c"
+                          type="text"
+                          required
+                          class="xs: border-2 mb-3 pl-4 pt-3 pb-[30%] border-gray-200 w-[100%]"
+                        />
+                      </div>
+                      <div>
+                        <button
+                          class="xs: border-2 mb-3 pl-2 pt-1 pb-2 w-[100%] text-white"
+                          style="background-color: #ff214f"
+                        >
+                          Send Message
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
